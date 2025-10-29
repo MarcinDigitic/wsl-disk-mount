@@ -1,0 +1,175 @@
+# Ignore everything by default
+*
+
+# Allow only specific file types in the main directory
+!*.ps1
+!*.py
+!*.md
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow README files with any case
+!README*
+!readme*
+
+# Allow markdown files
+!*.markdown
+
+# Explicitly ignore common files that might exist
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+
+# Ignore directories
+*/
+!*/
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+.brackets.json
+
+# Ignore version control (except .gitignore)
+.git/
+.svn/
+.hg/
+.bzr/
+
+# Ignore Windows specific
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Ignore media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Ignore document files
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Ignore configuration files (except our scripts)
+*.ini
+*.cfg
+*.conf
+*.config
+*.xml
+*.json
+*.yaml
+*.yml
+*.toml
+*.properties
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore temporary and cache files
+*.cache
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.tar.gz
+
+# Ignore environment and dependency files
+.env
+.venv/
+venv/
+env/
+node_modules/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Ignore test and coverage files
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore logs and debug files
+*.log
+logs/
+debug.log
+error.log
+access.log
+
+# Ignore backup and temporary directories
+backup/
+backups/
+temp/
+tmp/
+temporary/
